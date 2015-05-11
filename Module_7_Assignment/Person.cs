@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 // Description: Module Seven Assignment.
 // Author: Javier Herrero Arnanz.
-// Date: 11/05/2015.
 
 namespace Module_7_Assignment
 {
