@@ -23,7 +23,7 @@ namespace Module_7_Assignment
             students.Add(student2);
             students.Add(student3);
 
-            // 2- Add 5 grades to the the Stack in the each Student object.
+            // 2- Add 5 grades to the Stack in each Student object.
             foreach (Student s in students)
             {
                 for (int i=0; i<5; i++)
