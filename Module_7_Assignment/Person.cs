@@ -6,22 +6,16 @@ using System.Threading.Tasks;
 
 // Description: Module Seven Assignment.
 // Author: Javier Herrero Arnanz.
+// Date: 11/05/2015.
 
 namespace Module_7_Assignment
 {
-    class UProgram
+    class Person
     {
-        // UProgram variables and properties.
-        public string ProgramName { get; set; }
-        public string DepartmentHead { get; set; }
-        public Degree Degree { get; set; }
-
-        // Constructor.
-        public UProgram(string pName, string departmentH, Degree degree)
-        {
-            this.ProgramName = pName;
-            this.DepartmentHead = departmentH;
-            this.Degree = degree;
-        }
+        // Person variables and properties.
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime BirthDate { get; set; }
+        public string Email { get; set; }
     }
 }
